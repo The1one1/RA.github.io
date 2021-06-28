@@ -4,6 +4,165 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box</title>
+    <style>
+        .supiriorclass{
+            border: 3px solid rgb(221, 21, 54);
+            height: 500px;
+            padding: 3px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color:pink;
+            border-radius: 10px;
+            box-shadow: -8px 14px 8px -6px #000000;
+        }
+        .firstclass{
+            border: 4px solid black;
+            width: 1000px;
+            margin: 3px;
+            background-color: #aeeeb2;
+            padding: 4px;
+            border-radius: 6px;
+
+        }
+        #firstid{
+            height: 100px;
+            margin: auto;
+            text-align: center;
+            font-style:italic;
+            background-image:url(photo/IMG_1937.JPG);
+            /* box-shadow: -8px 14px 8px -6px #000000; */
+        }
+        #secondid{
+            float: left;
+            width: 48%;
+        }
+        #thirdid{
+            float: right;
+            width: 48%;
+        }
+        #fourthid{
+            clear: both;
+            width: 98.45%;
+        }
+        #chemicalid{
+            text-align: center;
+        }
+        .supiriorclass a,button{
+            /* border: 3px solid rgb(65, 56, 68); */
+            margin-top: 10px;
+            padding: 3px;
+            background-color: rgb(120, 98, 128);
+            border-radius: 7px;
+            border: 2px ;
+            color: black;
+        }
+        button{
+            padding: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .supiriorclass a:hover,button:hover{
+            background-color: rgb(65, 56, 68);
+            border-style: hidden;
+            color: black;
+           box-shadow: -8px 6px 6px -6px #000000;
+        }
+        .supiriorclass a:visited{
+            color: lightblue;
+        }
+        .supiriorclass a:link{
+            background-color: blue;
+        }
+        .supiriorclass a:active{
+            background-color: rgb(55, 224, 182);
+        }
+        .navbar{
+            background-color: rgb(1, 43, 46);
+            /* background-color: white; */
+            border-radius: 30px;
+            background-image: url(photo/IMG_1937.JPG);
+            box-shadow: -8px 14px 8px -6px #000000;
+        }
+        .navbar ul{
+            overflow: auto;
+            list-style: none;
+            padding: 10px 4px;
+        }
+        .navbar ul li{
+            float: left;
+            margin: 7px 30px;
+        }
+        .navbar a:hover{
+            font-style: italic;
+            background-color: rgb(153, 153, 229);
+            border: 2px solid rgb(172, 172, 243);
+            padding:  5px 5px;
+            border-radius: 14px;
+        }
+        #Search{
+            float: right;
+            padding: 5px 9px;
+            margin-right: 72px;
+            margin-top: 2px;
+            border: 2px solid white;
+            border-radius: 20px;
+        }
+        #newa{
+            color: black;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a id="newa" href="#">Home</a></li>
+                <li><a id="newa" href="#">About</a></li>
+                <li><a id="newa" href="#">Services</a></li>
+                <li><a id="newa" href="#">Contact</a></li>
+                <input type="text" name="Search" id="Search"  placeholder="Search">
+            </ul>
+        </nav>
+    </header>
+    <div class="supiriorclass">
+        <div class="firstclass" id="firstid">
+            <h1>Medical</h1>
+        </div>
+        <div class="firstclass" id="secondid">
+            <h1>Medicine</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iusto sapiente consequuntur id eum magnam labore delectus magni voluptates vero? Officiis ab rem velit minima repellendus optio voluptatem perspiciatis possimus.</p>
+        </div>
+        <div class="firstclass" id="thirdid">
+            <h1>Chemical</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iusto sapiente consequuntur id eum magnam labore delectus magni voluptates vero? Officiis ab rem velit minima repellendus optio voluptatem perspiciatis possimus.</p>
+        </div>
+        <div class="firstclass" id="fourthid">
+            <h1 id="chemicalid">Chemical</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iusto sapiente consequuntur id eum magnam labore delectus magni voluptates vero? Officiis ab rem velit minima repellendus optio voluptatem perspiciatis possimus.</p>
+        </div>
+        <a href="https://github.com/">Read More</a>
+        <button>Contact Us </button>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Display property</title>
     <style>
         header{
@@ -65,4 +224,4 @@
     </div>
 </div>
 </body>
-</html>
+</html> -->
